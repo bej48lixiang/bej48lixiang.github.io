@@ -1,0 +1,113 @@
+.date {
+    color: #aaa;
+    display: inline-block;
+	font-size: 0.6em;
+	position: absolute;
+	right: 5px;
+	top: 10px;
+}
+
+.name {
+    padding-bottom: 5px;
+	color: #888;
+	display: inline-block;
+	font-size: 0.8em;
+}
+
+.tag {
+	color: #880;
+}
+
+td > .tag {
+	display: none;
+}
+
+body {
+	font-family: 'WenQuanYi Micro Hei';
+	font-size: 25px;
+	zoom: 180%;
+}
+
+table tr:nth-child(2n+1) {
+	background:-moz-linear-gradient(#dee, #dde);
+	background:-webkit-linear-gradient(#dee, #dde);
+    /*background-color: #dee;*/
+}
+
+table tr:nth-child(2n) {
+    /*background-color: #eed;*/
+    background:-moz-linear-gradient(#eed, #edd);
+    background:-webkit-linear-gradient(#eed, #edd);
+}
+
+table tr td:nth-child(2) {
+	border-radius: 0px 10px 10px 0px ;
+	padding-left: 5px;
+	width: 100%;
+}
+
+table tr td:nth-child(1) {
+	border-radius: 10px 0px 0px 10px ;
+	padding-left: 5px;
+	padding-top: 5px;
+}
+
+table td {
+	vertical-align: top;
+	padding-bottom: 5px;
+	position: relative;
+	padding-left: 0px;
+	padding-right: 0px;
+	word-break: break-all;
+}
+
+body {
+	width: 600px;
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	position: relative;
+	padding: 20px;
+	margin-bottom: 40px;
+}
+
+.bgimg {
+	position: absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	background-image: url(xy.png);
+    background-size: 13%;
+    z-index: -1;
+    opacity: 0.6;
+    background-color: #f00;
+}
+
+table {
+	border-spacing: 0px 5px;
+	padding-bottom: 0px;
+	width: 100%;
+	/*border: 2px inset;*/
+	background:-moz-linear-gradient(#ffe, #fef);
+	background:-webkit-linear-gradient(#ffe, #fef);
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 0px;
+	border-radius: 15px;
+}
+
+table th {
+	text-align: middle;
+	font-size: 1.2em;
+	border-radius: 10px;
+}
+
+img {
+	width: 50px;
+	height: 50px;
+	display: block;
+	border-radius: 9px;
+}
